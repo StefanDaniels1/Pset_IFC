@@ -1,0 +1,2221 @@
+[
+  {
+    "IfcStairFlight": [
+      {
+        "name": "IfcStairFlight"
+      }
+    ]
+  },
+  {
+    "IfcProjectOrder": [
+      {
+        "name": "IfcProjectOrder"
+      }
+    ]
+  },
+  {
+    "IfcFlowMovingDevice": [
+      {
+        "name": "IfcFlowMovingDevice"
+      }
+    ]
+  },
+  {
+    "IfcWasteTerminalType": [
+      {
+        "name": "IfcWasteTerminalType"
+      }
+    ]
+  },
+  {
+    "IfcTubeBundleType": [
+      {
+        "name": "IfcTubeBundleType"
+      }
+    ]
+  },
+  {
+    "IfcSensorType": [
+      {
+        "name": "IfcSensorType"
+      }
+    ]
+  },
+  {
+    "Multiple_classnames!": [
+      {
+        "name": "Multiple_classnames!"
+      }
+    ]
+  },
+  {
+    "IfcGasTerminalType": [
+      {
+        "name": "IfcGasTerminalType"
+      }
+    ]
+  },
+  {
+    "IfcFurnitureType": [
+      {
+        "name": "IfcFurnitureType"
+      }
+    ]
+  },
+  {
+    "IfcDuctFittingType": [
+      {
+        "name": "IfcDuctFittingType"
+      }
+    ]
+  },
+  {
+    "IfcBoilerType": [
+      {
+        "name": "IfcBoilerType"
+      }
+    ]
+  },
+  {
+    "IfcFireSuppressionTerminalType": [
+      {
+        "name": "IfcFireSuppressionTerminalType"
+      }
+    ]
+  },
+  {
+    "IfcDistributionControlElement": [
+      {
+        "name": "IfcDistributionControlElement"
+      }
+    ]
+  },
+  {
+    "IfcMember": [
+      {
+        "name": "IfcMember"
+      }
+    ]
+  },
+  {
+    "Multiple_classnames!": [
+      {
+        "name": "Multiple_classnames!"
+      }
+    ]
+  },
+  {
+    "IfcObject": [
+      {
+        "name": "IfcObject"
+      }
+    ]
+  },
+  {
+    "IfcSite": [
+      {
+        "name": "IfcSite"
+      }
+    ]
+  },
+  {
+    "IfcElectricalCircuit": [
+      {
+        "name": "IfcElectricalCircuit"
+      }
+    ]
+  },
+  {
+    "IfcTubeBundleType": [
+      {
+        "name": "IfcTubeBundleType"
+      }
+    ]
+  },
+  {
+    "IfcValveType": [
+      {
+        "name": "IfcValveType"
+      }
+    ]
+  },
+  {
+    "IfcAirTerminalType": [
+      {
+        "name": "IfcAirTerminalType"
+      }
+    ]
+  },
+  {
+    "IfcTankType": [
+      {
+        "name": "IfcTankType"
+      }
+    ]
+  },
+  {
+    "Multiple_classnames!": [
+      {
+        "name": "Multiple_classnames!"
+      }
+    ]
+  },
+  {
+    "IfcCableCarrierSegmentType": [
+      {
+        "name": "IfcCableCarrierSegmentType"
+      }
+    ]
+  },
+  {
+    "IfcValveType": [
+      {
+        "name": "IfcValveType"
+      }
+    ]
+  },
+  {
+    "IfcSensorType": [
+      {
+        "name": "IfcSensorType"
+      }
+    ]
+  },
+  {
+    "IfcSanitaryTerminalType": [
+      {
+        "name": "IfcSanitaryTerminalType"
+      }
+    ]
+  },
+  {
+    "IfcPerformanceHistory": [
+      {
+        "name": "IfcPerformanceHistory"
+      }
+    ]
+  },
+  {
+    "IfcSystemFurnitureElementType": [
+      {
+        "name": "IfcSystemFurnitureElementType"
+      }
+    ]
+  },
+  {
+    "IfcEnergyConversionDevice": [
+      {
+        "name": "IfcEnergyConversionDevice"
+      }
+    ]
+  },
+  {
+    "IfcSwitchingDeviceType": [
+      {
+        "name": "IfcSwitchingDeviceType"
+      }
+    ]
+  },
+  {
+    "IfcCableCarrierSegmentType": [
+      {
+        "name": "IfcCableCarrierSegmentType"
+      }
+    ]
+  },
+  {
+    "IfcFlowFitting": [
+      {
+        "name": "IfcFlowFitting"
+      }
+    ]
+  },
+  {
+    "IfcLightFixtureType": [
+      {
+        "name": "IfcLightFixtureType"
+      }
+    ]
+  },
+  {
+    "IfcElectricHeaterType": [
+      {
+        "name": "IfcElectricHeaterType"
+      }
+    ]
+  },
+  {
+    "IfcProjectOrder": [
+      {
+        "name": "IfcProjectOrder"
+      }
+    ]
+  },
+  {
+    "IfcValveType": [
+      {
+        "name": "IfcValveType"
+      }
+    ]
+  },
+  {
+    "IfcUnitaryEquipmentType": [
+      {
+        "name": "IfcUnitaryEquipmentType"
+      }
+    ]
+  },
+  {
+    "IfcWasteTerminalType": [
+      {
+        "name": "IfcWasteTerminalType"
+      }
+    ]
+  },
+  {
+    "IfcFurnitureType": [
+      {
+        "name": "IfcFurnitureType"
+      }
+    ]
+  },
+  {
+    "IfcSpaceHeaterType": [
+      {
+        "name": "IfcSpaceHeaterType"
+      }
+    ]
+  },
+  {
+    "IfcDistributionChamberElementType": [
+      {
+        "name": "IfcDistributionChamberElementType"
+      }
+    ]
+  },
+  {
+    "IfcControllerType": [
+      {
+        "name": "IfcControllerType"
+      }
+    ]
+  },
+  {
+    "IfcPerformanceHistory": [
+      {
+        "name": "IfcPerformanceHistory"
+      }
+    ]
+  },
+  {
+    "IfcBuilding": [
+      {
+        "name": "IfcBuilding"
+      }
+    ]
+  },
+  {
+    "IfcPerformanceHistory": [
+      {
+        "name": "IfcPerformanceHistory"
+      }
+    ]
+  },
+  {
+    "IfcEvaporativeCoolerType": [
+      {
+        "name": "IfcEvaporativeCoolerType"
+      }
+    ]
+  },
+  {
+    "IfcDistributionElement": [
+      {
+        "name": "IfcDistributionElement"
+      }
+    ]
+  },
+  {
+    "IfcFireSuppressionTerminalType": [
+      {
+        "name": "IfcFireSuppressionTerminalType"
+      }
+    ]
+  },
+  {
+    "IfcCableCarrierSegmentType": [
+      {
+        "name": "IfcCableCarrierSegmentType"
+      }
+    ]
+  },
+  {
+    "IfcFlowMeterType": [
+      {
+        "name": "IfcFlowMeterType"
+      }
+    ]
+  },
+  {
+    "IfcWasteTerminalType": [
+      {
+        "name": "IfcWasteTerminalType"
+      }
+    ]
+  },
+  {
+    "IfcPerformanceHistory": [
+      {
+        "name": "IfcPerformanceHistory"
+      }
+    ]
+  },
+  {
+    "IfcFlowSegment": [
+      {
+        "name": "IfcFlowSegment"
+      }
+    ]
+  },
+  {
+    "IfcCoolingTowerType": [
+      {
+        "name": "IfcCoolingTowerType"
+      }
+    ]
+  },
+  {
+    "IfcLightFixtureType": [
+      {
+        "name": "IfcLightFixtureType"
+      }
+    ]
+  },
+  {
+    "IfcFireSuppressionTerminalType": [
+      {
+        "name": "IfcFireSuppressionTerminalType"
+      }
+    ]
+  },
+  {
+    "IfcDistributionControlElement": [
+      {
+        "name": "IfcDistributionControlElement"
+      }
+    ]
+  },
+  {
+    "IfcSwitchingDeviceType": [
+      {
+        "name": "IfcSwitchingDeviceType"
+      }
+    ]
+  },
+  {
+    "IfcProject": [
+      {
+        "name": "IfcProject"
+      }
+    ]
+  },
+  {
+    "IfcFooting": [
+      {
+        "name": "IfcFooting"
+      }
+    ]
+  },
+  {
+    "IfcWasteTerminalType": [
+      {
+        "name": "IfcWasteTerminalType"
+      }
+    ]
+  },
+  {
+    "Multiple_classnames!": [
+      {
+        "name": "Multiple_classnames!"
+      }
+    ]
+  },
+  {
+    "IfcPumpType": [
+      {
+        "name": "IfcPumpType"
+      }
+    ]
+  },
+  {
+    "IfcElectricGeneratorType": [
+      {
+        "name": "IfcElectricGeneratorType"
+      }
+    ]
+  },
+  {
+    "IfcReinforcingBar": [
+      {
+        "name": "IfcReinforcingBar"
+      }
+    ]
+  },
+  {
+    "IfcPerformanceHistory": [
+      {
+        "name": "IfcPerformanceHistory"
+      }
+    ]
+  },
+  {
+    "IfcPerformanceHistory": [
+      {
+        "name": "IfcPerformanceHistory"
+      }
+    ]
+  },
+  {
+    "IfcPermit": [
+      {
+        "name": "IfcPermit"
+      }
+    ]
+  },
+  {
+    "IfcProtectiveDeviceType": [
+      {
+        "name": "IfcProtectiveDeviceType"
+      }
+    ]
+  },
+  {
+    "IfcDamperType": [
+      {
+        "name": "IfcDamperType"
+      }
+    ]
+  },
+  {
+    "IfcProtectiveDeviceType": [
+      {
+        "name": "IfcProtectiveDeviceType"
+      }
+    ]
+  },
+  {
+    "IfcPerformanceHistory": [
+      {
+        "name": "IfcPerformanceHistory"
+      }
+    ]
+  },
+  {
+    "IfcReinforcingBar": [
+      {
+        "name": "IfcReinforcingBar"
+      }
+    ]
+  },
+  {
+    "IfcProjectOrder": [
+      {
+        "name": "IfcProjectOrder"
+      }
+    ]
+  },
+  {
+    "IfcProjectOrder": [
+      {
+        "name": "IfcProjectOrder"
+      }
+    ]
+  },
+  {
+    "IfcSwitchingDeviceType": [
+      {
+        "name": "IfcSwitchingDeviceType"
+      }
+    ]
+  },
+  {
+    "IfcAirTerminalType": [
+      {
+        "name": "IfcAirTerminalType"
+      }
+    ]
+  },
+  {
+    "IfcDistributionElement": [
+      {
+        "name": "IfcDistributionElement"
+      }
+    ]
+  },
+  {
+    "IfcColumn": [
+      {
+        "name": "IfcColumn"
+      }
+    ]
+  },
+  {
+    "IfcPerformanceHistory": [
+      {
+        "name": "IfcPerformanceHistory"
+      }
+    ]
+  },
+  {
+    "IfcSpace": [
+      {
+        "name": "IfcSpace"
+      }
+    ]
+  },
+  {
+    "Multiple_classnames!": [
+      {
+        "name": "Multiple_classnames!"
+      }
+    ]
+  },
+  {
+    "IfcVibrationIsolatorType": [
+      {
+        "name": "IfcVibrationIsolatorType"
+      }
+    ]
+  },
+  {
+    "IfcFlowFitting": [
+      {
+        "name": "IfcFlowFitting"
+      }
+    ]
+  },
+  {
+    "IfcProjectOrder": [
+      {
+        "name": "IfcProjectOrder"
+      }
+    ]
+  },
+  {
+    "IfcTankType": [
+      {
+        "name": "IfcTankType"
+      }
+    ]
+  },
+  {
+    "IfcFlowStorageDevice": [
+      {
+        "name": "IfcFlowStorageDevice"
+      }
+    ]
+  },
+  {
+    "IfcSite": [
+      {
+        "name": "IfcSite"
+      }
+    ]
+  },
+  {
+    "IfcHumidifierType": [
+      {
+        "name": "IfcHumidifierType"
+      }
+    ]
+  },
+  {
+    "IfcSpace": [
+      {
+        "name": "IfcSpace"
+      }
+    ]
+  },
+  {
+    "IfcElement": [
+      {
+        "name": "IfcElement"
+      }
+    ]
+  },
+  {
+    "IfcPerformanceHistory": [
+      {
+        "name": "IfcPerformanceHistory"
+      }
+    ]
+  },
+  {
+    "IfcPerformanceHistory": [
+      {
+        "name": "IfcPerformanceHistory"
+      }
+    ]
+  },
+  {
+    "IfcSensorType": [
+      {
+        "name": "IfcSensorType"
+      }
+    ]
+  },
+  {
+    "IfcActionRequest": [
+      {
+        "name": "IfcActionRequest"
+      }
+    ]
+  },
+  {
+    "IfcSystemFurnitureElementType": [
+      {
+        "name": "IfcSystemFurnitureElementType"
+      }
+    ]
+  },
+  {
+    "IfcFlowTerminal": [
+      {
+        "name": "IfcFlowTerminal"
+      }
+    ]
+  },
+  {
+    "IfcSite": [
+      {
+        "name": "IfcSite"
+      }
+    ]
+  },
+  {
+    "IfcHeatExchangerType": [
+      {
+        "name": "IfcHeatExchangerType"
+      }
+    ]
+  },
+  {
+    "IfcProduct": [
+      {
+        "name": "IfcProduct"
+      }
+    ]
+  },
+  {
+    "IfcAirTerminalType": [
+      {
+        "name": "IfcAirTerminalType"
+      }
+    ]
+  },
+  {
+    "IfcCovering": [
+      {
+        "name": "IfcCovering"
+      }
+    ]
+  },
+  {
+    "IfcCableCarrierSegmentType": [
+      {
+        "name": "IfcCableCarrierSegmentType"
+      }
+    ]
+  },
+  {
+    "IfcElectricHeaterType": [
+      {
+        "name": "IfcElectricHeaterType"
+      }
+    ]
+  },
+  {
+    "IfcActuatorType": [
+      {
+        "name": "IfcActuatorType"
+      }
+    ]
+  },
+  {
+    "IfcColumn": [
+      {
+        "name": "IfcColumn"
+      }
+    ]
+  },
+  {
+    "IfcSensorType": [
+      {
+        "name": "IfcSensorType"
+      }
+    ]
+  },
+  {
+    "Multiple_classnames!": [
+      {
+        "name": "Multiple_classnames!"
+      }
+    ]
+  },
+  {
+    "IfcPerformanceHistory": [
+      {
+        "name": "IfcPerformanceHistory"
+      }
+    ]
+  },
+  {
+    "IfcTransportElement": [
+      {
+        "name": "IfcTransportElement"
+      }
+    ]
+  },
+  {
+    "Multiple_classnames!": [
+      {
+        "name": "Multiple_classnames!"
+      }
+    ]
+  },
+  {
+    "Multiple_classnames!": [
+      {
+        "name": "Multiple_classnames!"
+      }
+    ]
+  },
+  {
+    "IfcPerformanceHistory": [
+      {
+        "name": "IfcPerformanceHistory"
+      }
+    ]
+  },
+  {
+    "IfcElement": [
+      {
+        "name": "IfcElement"
+      }
+    ]
+  },
+  {
+    "Multiple_classnames!": [
+      {
+        "name": "Multiple_classnames!"
+      }
+    ]
+  },
+  {
+    "IfcBuilding": [
+      {
+        "name": "IfcBuilding"
+      }
+    ]
+  },
+  {
+    "IfcWasteTerminalType": [
+      {
+        "name": "IfcWasteTerminalType"
+      }
+    ]
+  },
+  {
+    "IfcFireSuppressionTerminalType": [
+      {
+        "name": "IfcFireSuppressionTerminalType"
+      }
+    ]
+  },
+  {
+    "IfcSystemFurnitureElementType": [
+      {
+        "name": "IfcSystemFurnitureElementType"
+      }
+    ]
+  },
+  {
+    "IfcBeam": [
+      {
+        "name": "IfcBeam"
+      }
+    ]
+  },
+  {
+    "IfcFlowInstrumentType": [
+      {
+        "name": "IfcFlowInstrumentType"
+      }
+    ]
+  },
+  {
+    "IfcSensorType": [
+      {
+        "name": "IfcSensorType"
+      }
+    ]
+  },
+  {
+    "IfcDamperType": [
+      {
+        "name": "IfcDamperType"
+      }
+    ]
+  },
+  {
+    "IfcTankType": [
+      {
+        "name": "IfcTankType"
+      }
+    ]
+  },
+  {
+    "IfcReinforcingBar": [
+      {
+        "name": "IfcReinforcingBar"
+      }
+    ]
+  },
+  {
+    "Multiple_classnames!": [
+      {
+        "name": "Multiple_classnames!"
+      }
+    ]
+  },
+  {
+    "IfcSensorType": [
+      {
+        "name": "IfcSensorType"
+      }
+    ]
+  },
+  {
+    "IfcZone": [
+      {
+        "name": "IfcZone"
+      }
+    ]
+  },
+  {
+    "IfcOutletType": [
+      {
+        "name": "IfcOutletType"
+      }
+    ]
+  },
+  {
+    "IfcPerformanceHistory": [
+      {
+        "name": "IfcPerformanceHistory"
+      }
+    ]
+  },
+  {
+    "Multiple_classnames!": [
+      {
+        "name": "Multiple_classnames!"
+      }
+    ]
+  },
+  {
+    "IfcDistributionControlElement": [
+      {
+        "name": "IfcDistributionControlElement"
+      }
+    ]
+  },
+  {
+    "IfcFilterType": [
+      {
+        "name": "IfcFilterType"
+      }
+    ]
+  },
+  {
+    "IfcCableSegmentType": [
+      {
+        "name": "IfcCableSegmentType"
+      }
+    ]
+  },
+  {
+    "Multiple_classnames!": [
+      {
+        "name": "Multiple_classnames!"
+      }
+    ]
+  },
+  {
+    "IfcFlowMeterType": [
+      {
+        "name": "IfcFlowMeterType"
+      }
+    ]
+  },
+  {
+    "IfcEnergyConversionDevice": [
+      {
+        "name": "IfcEnergyConversionDevice"
+      }
+    ]
+  },
+  {
+    "IfcActuatorType": [
+      {
+        "name": "IfcActuatorType"
+      }
+    ]
+  },
+  {
+    "IfcDoor": [
+      {
+        "name": "IfcDoor"
+      }
+    ]
+  },
+  {
+    "IfcWasteTerminalType": [
+      {
+        "name": "IfcWasteTerminalType"
+      }
+    ]
+  },
+  {
+    "IfcFlowSegment": [
+      {
+        "name": "IfcFlowSegment"
+      }
+    ]
+  },
+  {
+    "IfcSanitaryTerminalType": [
+      {
+        "name": "IfcSanitaryTerminalType"
+      }
+    ]
+  },
+  {
+    "IfcFanType": [
+      {
+        "name": "IfcFanType"
+      }
+    ]
+  },
+  {
+    "IfcPipeFittingType": [
+      {
+        "name": "IfcPipeFittingType"
+      }
+    ]
+  },
+  {
+    "IfcTransformerType": [
+      {
+        "name": "IfcTransformerType"
+      }
+    ]
+  },
+  {
+    "IfcFlowMeterType": [
+      {
+        "name": "IfcFlowMeterType"
+      }
+    ]
+  },
+  {
+    "IfcWindow": [
+      {
+        "name": "IfcWindow"
+      }
+    ]
+  },
+  {
+    "IfcSanitaryTerminalType": [
+      {
+        "name": "IfcSanitaryTerminalType"
+      }
+    ]
+  },
+  {
+    "IfcFlowMovingDevice": [
+      {
+        "name": "IfcFlowMovingDevice"
+      }
+    ]
+  },
+  {
+    "IfcUnitaryEquipmentType": [
+      {
+        "name": "IfcUnitaryEquipmentType"
+      }
+    ]
+  },
+  {
+    "IfcPerformanceHistory": [
+      {
+        "name": "IfcPerformanceHistory"
+      }
+    ]
+  },
+  {
+    "IfcEvaporatorType": [
+      {
+        "name": "IfcEvaporatorType"
+      }
+    ]
+  },
+  {
+    "IfcTankType": [
+      {
+        "name": "IfcTankType"
+      }
+    ]
+  },
+  {
+    "IfcFlowController": [
+      {
+        "name": "IfcFlowController"
+      }
+    ]
+  },
+  {
+    "Multiple_classnames!": [
+      {
+        "name": "Multiple_classnames!"
+      }
+    ]
+  },
+  {
+    "IfcAsset": [
+      {
+        "name": "IfcAsset"
+      }
+    ]
+  },
+  {
+    "IfcSpaceHeaterType": [
+      {
+        "name": "IfcSpaceHeaterType"
+      }
+    ]
+  },
+  {
+    "Multiple_classnames!": [
+      {
+        "name": "Multiple_classnames!"
+      }
+    ]
+  },
+  {
+    "IfcCooledBeamType": [
+      {
+        "name": "IfcCooledBeamType"
+      }
+    ]
+  },
+  {
+    "IfcSpatialStructureElement": [
+      {
+        "name": "IfcSpatialStructureElement"
+      }
+    ]
+  },
+  {
+    "IfcSanitaryTerminalType": [
+      {
+        "name": "IfcSanitaryTerminalType"
+      }
+    ]
+  },
+  {
+    "IfcDamperType": [
+      {
+        "name": "IfcDamperType"
+      }
+    ]
+  },
+  {
+    "IfcValveType": [
+      {
+        "name": "IfcValveType"
+      }
+    ]
+  },
+  {
+    "IfcSensorType": [
+      {
+        "name": "IfcSensorType"
+      }
+    ]
+  },
+  {
+    "IfcProxy": [
+      {
+        "name": "IfcProxy"
+      }
+    ]
+  },
+  {
+    "IfcPerformanceHistory": [
+      {
+        "name": "IfcPerformanceHistory"
+      }
+    ]
+  },
+  {
+    "Multiple_classnames!": [
+      {
+        "name": "Multiple_classnames!"
+      }
+    ]
+  },
+  {
+    "IfcDistributionChamberElementType": [
+      {
+        "name": "IfcDistributionChamberElementType"
+      }
+    ]
+  },
+  {
+    "IfcPerformanceHistory": [
+      {
+        "name": "IfcPerformanceHistory"
+      }
+    ]
+  },
+  {
+    "IfcElement": [
+      {
+        "name": "IfcElement"
+      }
+    ]
+  },
+  {
+    "IfcSanitaryTerminalType": [
+      {
+        "name": "IfcSanitaryTerminalType"
+      }
+    ]
+  },
+  {
+    "IfcProduct": [
+      {
+        "name": "IfcProduct"
+      }
+    ]
+  },
+  {
+    "IfcDistributionChamberElementType": [
+      {
+        "name": "IfcDistributionChamberElementType"
+      }
+    ]
+  },
+  {
+    "IfcFilterType": [
+      {
+        "name": "IfcFilterType"
+      }
+    ]
+  },
+  {
+    "IfcPerformanceHistory": [
+      {
+        "name": "IfcPerformanceHistory"
+      }
+    ]
+  },
+  {
+    "IfcHeatExchangerType": [
+      {
+        "name": "IfcHeatExchangerType"
+      }
+    ]
+  },
+  {
+    "IfcSensorType": [
+      {
+        "name": "IfcSensorType"
+      }
+    ]
+  },
+  {
+    "IfcDistributionChamberElementType": [
+      {
+        "name": "IfcDistributionChamberElementType"
+      }
+    ]
+  },
+  {
+    "IfcSlab": [
+      {
+        "name": "IfcSlab"
+      }
+    ]
+  },
+  {
+    "IfcSpaceProgram": [
+      {
+        "name": "IfcSpaceProgram"
+      }
+    ]
+  },
+  {
+    "IfcFlowMeterType": [
+      {
+        "name": "IfcFlowMeterType"
+      }
+    ]
+  },
+  {
+    "IfcRoof": [
+      {
+        "name": "IfcRoof"
+      }
+    ]
+  },
+  {
+    "IfcFurnitureType": [
+      {
+        "name": "IfcFurnitureType"
+      }
+    ]
+  },
+  {
+    "IfcProtectiveDeviceType": [
+      {
+        "name": "IfcProtectiveDeviceType"
+      }
+    ]
+  },
+  {
+    "IfcPerformanceHistory": [
+      {
+        "name": "IfcPerformanceHistory"
+      }
+    ]
+  },
+  {
+    "IfcLampType": [
+      {
+        "name": "IfcLampType"
+      }
+    ]
+  },
+  {
+    "IfcAirTerminalBoxType": [
+      {
+        "name": "IfcAirTerminalBoxType"
+      }
+    ]
+  },
+  {
+    "IfcSensorType": [
+      {
+        "name": "IfcSensorType"
+      }
+    ]
+  },
+  {
+    "IfcDistributionElement": [
+      {
+        "name": "IfcDistributionElement"
+      }
+    ]
+  },
+  {
+    "IfcBuilding": [
+      {
+        "name": "IfcBuilding"
+      }
+    ]
+  },
+  {
+    "IfcProtectiveDeviceType": [
+      {
+        "name": "IfcProtectiveDeviceType"
+      }
+    ]
+  },
+  {
+    "IfcOpeningElement": [
+      {
+        "name": "IfcOpeningElement"
+      }
+    ]
+  },
+  {
+    "IfcDistributionChamberElementType": [
+      {
+        "name": "IfcDistributionChamberElementType"
+      }
+    ]
+  },
+  {
+    "IfcFlowMovingDevice": [
+      {
+        "name": "IfcFlowMovingDevice"
+      }
+    ]
+  },
+  {
+    "IfcSanitaryTerminalType": [
+      {
+        "name": "IfcSanitaryTerminalType"
+      }
+    ]
+  },
+  {
+    "IfcGasTerminalType": [
+      {
+        "name": "IfcGasTerminalType"
+      }
+    ]
+  },
+  {
+    "Multiple_classnames!": [
+      {
+        "name": "Multiple_classnames!"
+      }
+    ]
+  },
+  {
+    "IfcLightFixtureType": [
+      {
+        "name": "IfcLightFixtureType"
+      }
+    ]
+  },
+  {
+    "IfcWasteTerminalType": [
+      {
+        "name": "IfcWasteTerminalType"
+      }
+    ]
+  },
+  {
+    "IfcCoilType": [
+      {
+        "name": "IfcCoilType"
+      }
+    ]
+  },
+  {
+    "IfcBuilding": [
+      {
+        "name": "IfcBuilding"
+      }
+    ]
+  },
+  {
+    "IfcBuildingStorey": [
+      {
+        "name": "IfcBuildingStorey"
+      }
+    ]
+  },
+  {
+    "IfcSensorType": [
+      {
+        "name": "IfcSensorType"
+      }
+    ]
+  },
+  {
+    "IfcWasteTerminalType": [
+      {
+        "name": "IfcWasteTerminalType"
+      }
+    ]
+  },
+  {
+    "Multiple_classnames!": [
+      {
+        "name": "Multiple_classnames!"
+      }
+    ]
+  },
+  {
+    "IfcDamperType": [
+      {
+        "name": "IfcDamperType"
+      }
+    ]
+  },
+  {
+    "IfcDistributionChamberElementType": [
+      {
+        "name": "IfcDistributionChamberElementType"
+      }
+    ]
+  },
+  {
+    "IfcChillerType": [
+      {
+        "name": "IfcChillerType"
+      }
+    ]
+  },
+  {
+    "IfcDistributionControlElement": [
+      {
+        "name": "IfcDistributionControlElement"
+      }
+    ]
+  },
+  {
+    "IfcSwitchingDeviceType": [
+      {
+        "name": "IfcSwitchingDeviceType"
+      }
+    ]
+  },
+  {
+    "IfcFlowMovingDevice": [
+      {
+        "name": "IfcFlowMovingDevice"
+      }
+    ]
+  },
+  {
+    "IfcValveType": [
+      {
+        "name": "IfcValveType"
+      }
+    ]
+  },
+  {
+    "IfcPlate": [
+      {
+        "name": "IfcPlate"
+      }
+    ]
+  },
+  {
+    "IfcPerformanceHistory": [
+      {
+        "name": "IfcPerformanceHistory"
+      }
+    ]
+  },
+  {
+    "IfcSwitchingDeviceType": [
+      {
+        "name": "IfcSwitchingDeviceType"
+      }
+    ]
+  },
+  {
+    "IfcDamperType": [
+      {
+        "name": "IfcDamperType"
+      }
+    ]
+  },
+  {
+    "IfcPipeSegmentType": [
+      {
+        "name": "IfcPipeSegmentType"
+      }
+    ]
+  },
+  {
+    "IfcCooledBeamType": [
+      {
+        "name": "IfcCooledBeamType"
+      }
+    ]
+  },
+  {
+    "Multiple_classnames!": [
+      {
+        "name": "Multiple_classnames!"
+      }
+    ]
+  },
+  {
+    "IfcWasteTerminalType": [
+      {
+        "name": "IfcWasteTerminalType"
+      }
+    ]
+  },
+  {
+    "IfcPerformanceHistory": [
+      {
+        "name": "IfcPerformanceHistory"
+      }
+    ]
+  },
+  {
+    "IfcActuatorType": [
+      {
+        "name": "IfcActuatorType"
+      }
+    ]
+  },
+  {
+    "IfcPerformanceHistory": [
+      {
+        "name": "IfcPerformanceHistory"
+      }
+    ]
+  },
+  {
+    "Multiple_classnames!": [
+      {
+        "name": "Multiple_classnames!"
+      }
+    ]
+  },
+  {
+    "Multiple_classnames!": [
+      {
+        "name": "Multiple_classnames!"
+      }
+    ]
+  },
+  {
+    "IfcSanitaryTerminalType": [
+      {
+        "name": "IfcSanitaryTerminalType"
+      }
+    ]
+  },
+  {
+    "IfcBeam": [
+      {
+        "name": "IfcBeam"
+      }
+    ]
+  },
+  {
+    "IfcRampFlight": [
+      {
+        "name": "IfcRampFlight"
+      }
+    ]
+  },
+  {
+    "Multiple_classnames!": [
+      {
+        "name": "Multiple_classnames!"
+      }
+    ]
+  },
+  {
+    "IfcPerformanceHistory": [
+      {
+        "name": "IfcPerformanceHistory"
+      }
+    ]
+  },
+  {
+    "Multiple_classnames!": [
+      {
+        "name": "Multiple_classnames!"
+      }
+    ]
+  },
+  {
+    "IfcCurtainWall": [
+      {
+        "name": "IfcCurtainWall"
+      }
+    ]
+  },
+  {
+    "IfcBuilding": [
+      {
+        "name": "IfcBuilding"
+      }
+    ]
+  },
+  {
+    "Multiple_classnames!": [
+      {
+        "name": "Multiple_classnames!"
+      }
+    ]
+  },
+  {
+    "IfcCovering": [
+      {
+        "name": "IfcCovering"
+      }
+    ]
+  },
+  {
+    "IfcCoilType": [
+      {
+        "name": "IfcCoilType"
+      }
+    ]
+  },
+  {
+    "IfcFlowMeterType": [
+      {
+        "name": "IfcFlowMeterType"
+      }
+    ]
+  },
+  {
+    "IfcDuctSegmentType": [
+      {
+        "name": "IfcDuctSegmentType"
+      }
+    ]
+  },
+  {
+    "IfcBuilding": [
+      {
+        "name": "IfcBuilding"
+      }
+    ]
+  },
+  {
+    "IfcAirToAirHeatRecoveryType": [
+      {
+        "name": "IfcAirToAirHeatRecoveryType"
+      }
+    ]
+  },
+  {
+    "IfcWasteTerminalType": [
+      {
+        "name": "IfcWasteTerminalType"
+      }
+    ]
+  },
+  {
+    "IfcDuctSilencerType": [
+      {
+        "name": "IfcDuctSilencerType"
+      }
+    ]
+  },
+  {
+    "IfcSystem": [
+      {
+        "name": "IfcSystem"
+      }
+    ]
+  },
+  {
+    "Multiple_classnames!": [
+      {
+        "name": "Multiple_classnames!"
+      }
+    ]
+  },
+  {
+    "IfcProtectiveDeviceType": [
+      {
+        "name": "IfcProtectiveDeviceType"
+      }
+    ]
+  },
+  {
+    "IfcPerformanceHistory": [
+      {
+        "name": "IfcPerformanceHistory"
+      }
+    ]
+  },
+  {
+    "IfcGasTerminalType": [
+      {
+        "name": "IfcGasTerminalType"
+      }
+    ]
+  },
+  {
+    "IfcPipeSegmentType": [
+      {
+        "name": "IfcPipeSegmentType"
+      }
+    ]
+  },
+  {
+    "IfcValveType": [
+      {
+        "name": "IfcValveType"
+      }
+    ]
+  },
+  {
+    "IfcSystem": [
+      {
+        "name": "IfcSystem"
+      }
+    ]
+  },
+  {
+    "IfcPerformanceHistory": [
+      {
+        "name": "IfcPerformanceHistory"
+      }
+    ]
+  },
+  {
+    "IfcTankType": [
+      {
+        "name": "IfcTankType"
+      }
+    ]
+  },
+  {
+    "IfcSpace": [
+      {
+        "name": "IfcSpace"
+      }
+    ]
+  },
+  {
+    "IfcBoilerType": [
+      {
+        "name": "IfcBoilerType"
+      }
+    ]
+  },
+  {
+    "IfcPerformanceHistory": [
+      {
+        "name": "IfcPerformanceHistory"
+      }
+    ]
+  },
+  {
+    "IfcValveType": [
+      {
+        "name": "IfcValveType"
+      }
+    ]
+  },
+  {
+    "IfcSanitaryTerminalType": [
+      {
+        "name": "IfcSanitaryTerminalType"
+      }
+    ]
+  },
+  {
+    "IfcValveType": [
+      {
+        "name": "IfcValveType"
+      }
+    ]
+  },
+  {
+    "IfcDistributionControlElement": [
+      {
+        "name": "IfcDistributionControlElement"
+      }
+    ]
+  },
+  {
+    "IfcAirTerminalType": [
+      {
+        "name": "IfcAirTerminalType"
+      }
+    ]
+  },
+  {
+    "IfcElement": [
+      {
+        "name": "IfcElement"
+      }
+    ]
+  },
+  {
+    "IfcProduct": [
+      {
+        "name": "IfcProduct"
+      }
+    ]
+  },
+  {
+    "IfcPerformanceHistory": [
+      {
+        "name": "IfcPerformanceHistory"
+      }
+    ]
+  },
+  {
+    "IfcPerformanceHistory": [
+      {
+        "name": "IfcPerformanceHistory"
+      }
+    ]
+  },
+  {
+    "IfcPerformanceHistory": [
+      {
+        "name": "IfcPerformanceHistory"
+      }
+    ]
+  },
+  {
+    "IfcValveType": [
+      {
+        "name": "IfcValveType"
+      }
+    ]
+  },
+  {
+    "IfcFlowController": [
+      {
+        "name": "IfcFlowController"
+      }
+    ]
+  },
+  {
+    "IfcControllerType": [
+      {
+        "name": "IfcControllerType"
+      }
+    ]
+  },
+  {
+    "IfcBuildingElementProxy": [
+      {
+        "name": "IfcBuildingElementProxy"
+      }
+    ]
+  },
+  {
+    "Multiple_classnames!": [
+      {
+        "name": "Multiple_classnames!"
+      }
+    ]
+  },
+  {
+    "Multiple_classnames!": [
+      {
+        "name": "Multiple_classnames!"
+      }
+    ]
+  },
+  {
+    "IfcFlowInstrumentType": [
+      {
+        "name": "IfcFlowInstrumentType"
+      }
+    ]
+  },
+  {
+    "IfcFanType": [
+      {
+        "name": "IfcFanType"
+      }
+    ]
+  },
+  {
+    "IfcDistributionElement": [
+      {
+        "name": "IfcDistributionElement"
+      }
+    ]
+  },
+  {
+    "IfcActor": [
+      {
+        "name": "IfcActor"
+      }
+    ]
+  },
+  {
+    "IfcPerformanceHistory": [
+      {
+        "name": "IfcPerformanceHistory"
+      }
+    ]
+  },
+  {
+    "IfcFooting": [
+      {
+        "name": "IfcFooting"
+      }
+    ]
+  },
+  {
+    "Multiple_classnames!": [
+      {
+        "name": "Multiple_classnames!"
+      }
+    ]
+  },
+  {
+    "IfcValveType": [
+      {
+        "name": "IfcValveType"
+      }
+    ]
+  },
+  {
+    "IfcSanitaryTerminalType": [
+      {
+        "name": "IfcSanitaryTerminalType"
+      }
+    ]
+  },
+  {
+    "IfcEnergyConversionDevice": [
+      {
+        "name": "IfcEnergyConversionDevice"
+      }
+    ]
+  },
+  {
+    "IfcFurnitureType": [
+      {
+        "name": "IfcFurnitureType"
+      }
+    ]
+  },
+  {
+    "IfcElectricDistributionPoint": [
+      {
+        "name": "IfcElectricDistributionPoint"
+      }
+    ]
+  },
+  {
+    "IfcProtectiveDeviceType": [
+      {
+        "name": "IfcProtectiveDeviceType"
+      }
+    ]
+  },
+  {
+    "IfcWall": [
+      {
+        "name": "IfcWall"
+      }
+    ]
+  },
+  {
+    "IfcFurnitureType": [
+      {
+        "name": "IfcFurnitureType"
+      }
+    ]
+  },
+  {
+    "IfcRailing": [
+      {
+        "name": "IfcRailing"
+      }
+    ]
+  },
+  {
+    "Multiple_classnames!": [
+      {
+        "name": "Multiple_classnames!"
+      }
+    ]
+  },
+  {
+    "IfcControllerType": [
+      {
+        "name": "IfcControllerType"
+      }
+    ]
+  },
+  {
+    "IfcTransportElement": [
+      {
+        "name": "IfcTransportElement"
+      }
+    ]
+  },
+  {
+    "IfcCompressorType": [
+      {
+        "name": "IfcCompressorType"
+      }
+    ]
+  },
+  {
+    "Multiple_classnames!": [
+      {
+        "name": "Multiple_classnames!"
+      }
+    ]
+  },
+  {
+    "IfcSensorType": [
+      {
+        "name": "IfcSensorType"
+      }
+    ]
+  },
+  {
+    "IfcPerformanceHistory": [
+      {
+        "name": "IfcPerformanceHistory"
+      }
+    ]
+  },
+  {
+    "IfcSlab": [
+      {
+        "name": "IfcSlab"
+      }
+    ]
+  },
+  {
+    "Multiple_classnames!": [
+      {
+        "name": "Multiple_classnames!"
+      }
+    ]
+  },
+  {
+    "IfcSpace": [
+      {
+        "name": "IfcSpace"
+      }
+    ]
+  },
+  {
+    "IfcProtectiveDeviceType": [
+      {
+        "name": "IfcProtectiveDeviceType"
+      }
+    ]
+  },
+  {
+    "IfcCondenserType": [
+      {
+        "name": "IfcCondenserType"
+      }
+    ]
+  },
+  {
+    "IfcDistributionPort": [
+      {
+        "name": "IfcDistributionPort"
+      }
+    ]
+  },
+  {
+    "IfcAirTerminalType": [
+      {
+        "name": "IfcAirTerminalType"
+      }
+    ]
+  },
+  {
+    "IfcDistributionChamberElementType": [
+      {
+        "name": "IfcDistributionChamberElementType"
+      }
+    ]
+  },
+  {
+    "IfcDistributionControlElement": [
+      {
+        "name": "IfcDistributionControlElement"
+      }
+    ]
+  },
+  {
+    "IfcElectricHeaterType": [
+      {
+        "name": "IfcElectricHeaterType"
+      }
+    ]
+  },
+  {
+    "IfcCableSegmentType": [
+      {
+        "name": "IfcCableSegmentType"
+      }
+    ]
+  },
+  {
+    "IfcActuatorType": [
+      {
+        "name": "IfcActuatorType"
+      }
+    ]
+  },
+  {
+    "IfcDistributionChamberElementType": [
+      {
+        "name": "IfcDistributionChamberElementType"
+      }
+    ]
+  },
+  {
+    "IfcSwitchingDeviceType": [
+      {
+        "name": "IfcSwitchingDeviceType"
+      }
+    ]
+  },
+  {
+    "IfcRamp": [
+      {
+        "name": "IfcRamp"
+      }
+    ]
+  },
+  {
+    "IfcStair": [
+      {
+        "name": "IfcStair"
+      }
+    ]
+  },
+  {
+    "IfcDistributionPort": [
+      {
+        "name": "IfcDistributionPort"
+      }
+    ]
+  },
+  {
+    "IfcActuatorType": [
+      {
+        "name": "IfcActuatorType"
+      }
+    ]
+  },
+  {
+    "IfcActuatorType": [
+      {
+        "name": "IfcActuatorType"
+      }
+    ]
+  },
+  {
+    "IfcSanitaryTerminalType": [
+      {
+        "name": "IfcSanitaryTerminalType"
+      }
+    ]
+  },
+  {
+    "IfcDistributionPort": [
+      {
+        "name": "IfcDistributionPort"
+      }
+    ]
+  },
+  {
+    "IfcPerformanceHistory": [
+      {
+        "name": "IfcPerformanceHistory"
+      }
+    ]
+  }
+]

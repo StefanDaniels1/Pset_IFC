@@ -1,17 +1,24 @@
 import xmltodict
 import json
-import pandas as pd
 import os
-import xml.etree.ElementTree as ET
 
 
+#creates blueprint for objects
 class IfcClass:
     def __init__(self, IfcName):
         self.IfcName = IfcName
-
+#Writes objects to json format, here you need to create the right json tree
+    def toJson(self):
+        return { self.IfcName: [{ "name": self.IfcName }] }
+#creates objects from json file, here all entities need to be defined to get tot the list
     @classmethod
-    def ifc_name(cls, object):
-        return cls(object["PropertySetDef"]["ApplicableClasses"]["ClassName"])
+    def initializeFromJson(cls, jsonObject):
+        classnames = jsonObject["PropertySetDef"]["ApplicableClasses"]["ClassName"]
+
+        if isinstance(classnames, list):
+            return cls("Multiple_classnames!")
+        else:
+            return cls(classnames)
 
 def list_creator(self):
     name = classmethod(IfcClass.ifc_name)
@@ -19,23 +26,39 @@ def list_creator(self):
     return
 
 # list_creator()
-
-
-def parser():
-    with open('../Source/IFC2x3/psd/Pset_ActionRequest.xml', 'r') as myfile:
+#parses the xml files to json
+def parser(filepath):
+    with open(filepath, 'r') as myfile:
         obj = xmltodict.parse(myfile.read())
     return obj
-
+#loads the json into json objects
 def to_json(obj):
     jsonString = json.dumps(obj)
     jsonObject = json.loads(jsonString)
     return jsonObject
 
+#creates list of ifc objects
+ifcversion = "IFC2x3"
+directory = f"../Source/{ifcversion}/psd"
+result = []
+for filename in os.listdir(directory):
+    filepath = os.path.join(directory, filename)
+    print(filename)
+    Pset_json = to_json(parser(filepath))
+    ifcObject = IfcClass.initializeFromJson(Pset_json)
+    result.append(ifcObject)
+    print(ifcObject)
+    print(ifcObject.toJson())
 
-Pset_json = to_json(parser())
-ifc = IfcClass.ifc_name(Pset_json)
-print(ifc)
+#uses json class function and dumps it in correct json format
+outputdirectory = f"../Source/{ifcversion}"
+# result : List<IfcClass>
+jsonString = json.dumps([ifcObject.toJson() for ifcObject in result])
+print(jsonString)
 
+#writes  json to file
+with open(f"{outputdirectory}/json_data.json", 'w+') as outfile:
+    outfile.write(jsonString)
 
 
 

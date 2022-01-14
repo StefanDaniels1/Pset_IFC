@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b17d7709-f847-4905-bfca-b8d5857550b6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Source/IFC2x3/json_data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Py/IFC2x3_XML_to_JSON.py" beforeDir="false" afterPath="$PROJECT_DIR$/Py/IFC2x3_XML_to_JSON.py" afterDir="false" />
     </list>
@@ -51,7 +52,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/PycharmProjects/pythonProject/venv/bin/python" />
+      <option name="SDK_HOME" value="$USER_HOME$/venv/bin/Python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Py" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
