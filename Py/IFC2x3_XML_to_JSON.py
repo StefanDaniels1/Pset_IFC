@@ -6,20 +6,19 @@ import xml.etree.ElementTree as ET
 
 
 class IfcClass:
-    def __init__(self, ifc_name):
-        self.ifc_name = ifc_name
+    def __init__(self, IfcName):
+        self.IfcName = IfcName
 
     @classmethod
     def ifc_name(cls, object):
         return cls(object["PropertySetDef"]["ApplicableClasses"]["ClassName"])
 
-def list_creator():
-    ifc_name = IfcClass.ifc_name
-    print(ifc_name)
+def list_creator(self):
+    name = classmethod(IfcClass.ifc_name)
+    print(name)
     return
 
-
-
+# list_creator()
 
 
 def parser():
@@ -27,12 +26,18 @@ def parser():
         obj = xmltodict.parse(myfile.read())
     return obj
 
-def printt(obj):
-    object = json.dumps(obj)
-    return object
+def to_json(obj):
+    jsonString = json.dumps(obj)
+    jsonObject = json.loads(jsonString)
+    return jsonObject
 
-printt(parser())
-list_creator()
+
+Pset_json = to_json(parser())
+ifc = IfcClass.ifc_name(Pset_json)
+print(ifc)
+
+
+
 
 
 # #
