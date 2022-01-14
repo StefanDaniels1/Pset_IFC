@@ -1,16 +1,57 @@
 import xmltodict
 import json
 import pandas as pd
+import os
+import xml.etree.ElementTree as ET
+
+
+class IfcClass:
+    def __init__(self, ifc_name):
+        self.ifc_name = ifc_name
+
+    @classmethod
+    def ifc_name(cls, object):
+        return cls(object["PropertySetDef"]["ApplicableClasses"]["ClassName"])
+
+def list_creator():
+    ifc_name = IfcClass.ifc_name
+    print(ifc_name)
+    return
+
+
+
 
 
 def parser():
     with open('../Source/IFC2x3/psd/Pset_ActionRequest.xml', 'r') as myfile:
         obj = xmltodict.parse(myfile.read())
-
     return obj
 
 def printt(obj):
-    print(json.dumps(obj))
+    object = json.dumps(obj)
+    return object
+
+printt(parser())
+list_creator()
+
+
+# #
+# #
+# def file_command(filepath):
+#     f = open(filepath)
+#
+#
+#
+# a_directory = "../Source/IFC2x3/psd"
+# for filename in os.listdir(a_directory):
+#     with open(a_directory + "/" + filename, 'r') as filename:
+#         obj = xmltodict.parse(filename.read())
+#
+#     file_command(filepath)
+#
+#
+
+
 
 # parser()
 
@@ -56,7 +97,7 @@ def printt(obj):
     #     ]
     # }
 
-printt(parser())
+
 
 
 
