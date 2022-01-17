@@ -5,20 +5,24 @@ import os
 
 #creates blueprint for objects
 class IfcClass:
-    def __init__(self, IfcName):
+    def __init__(self, IfcName, PsetName, PropName):
         self.IfcName = IfcName
+        self.PsetName = PsetName
+        self.PropName = PropName
+
 #Writes objects to json format, here you need to create the right json tree
     def toJson(self):
-        return { self.IfcName: [{ "name": self.IfcName }] }
+        return { self.IfcName: [{ "name": self.PsetName, "properties": self.PropName }]}
 #creates objects from json file, here all entities need to be defined to get tot the list
     @classmethod
     def initializeFromJson(cls, jsonObject):
         classnames = jsonObject["PropertySetDef"]["ApplicableClasses"]["ClassName"]
-
+        psetnames = jsonObject["PropertySetDef"]["Name"]
+        properties = jsonObject["PropertySetDef"]["PropertyDefs"]["PropertyDef"]
         if isinstance(classnames, list):
-            return cls("Multiple_classnames!")
+            return cls("Multiple_classnames!", psetnames, properties)
         else:
-            return cls(classnames)
+            return cls(classnames, psetnames, properties)
 
 def list_creator(self):
     name = classmethod(IfcClass.ifc_name)
@@ -47,8 +51,8 @@ for filename in os.listdir(directory):
     Pset_json = to_json(parser(filepath))
     ifcObject = IfcClass.initializeFromJson(Pset_json)
     result.append(ifcObject)
-    print(ifcObject)
-    print(ifcObject.toJson())
+    # print(ifcObject)
+    # print(ifcObject.toJson())
 
 #uses json class function and dumps it in correct json format
 outputdirectory = f"../Source/{ifcversion}"
@@ -57,7 +61,7 @@ jsonString = json.dumps([ifcObject.toJson() for ifcObject in result])
 print(jsonString)
 
 #writes  json to file
-with open(f"{outputdirectory}/json_data.json", 'w+') as outfile:
+with open(f"{outputdirectory}/json_data{ifcversion}.json", 'w+') as outfile:
     outfile.write(jsonString)
 
 
