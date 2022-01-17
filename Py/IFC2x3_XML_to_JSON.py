@@ -19,6 +19,18 @@ class IfcClass:
         classnames = jsonObject["PropertySetDef"]["ApplicableClasses"]["ClassName"]
         psetnames = jsonObject["PropertySetDef"]["Name"]
         properties = jsonObject["PropertySetDef"]["PropertyDefs"]["PropertyDef"]
+        if isinstance(properties, dict):
+            properties = [properties]
+
+        # removes valuedef from jsonpath, other valuedefs are probaly loaded somewhere else
+        # enumurate makes from all elements in an object a set of 2 elements [9,8,7] --> ([0,9], [1,8], [2,7]), underscore deletes the last item from every object
+        for i, _ in enumerate(properties):
+            properties[i].pop("ValueDef")
+
+        if "TypeComplexProperty" in properties:
+            properties.pop("TypeComplexProperty")
+        # properties.remove("DataType")
+        print(type(properties))
         if isinstance(classnames, list):
             return cls("Multiple_classnames!", psetnames, properties)
         else:
@@ -33,7 +45,7 @@ def list_creator(self):
 #parses the xml files to json
 def parser(filepath):
     with open(filepath, 'r') as myfile:
-        obj = xmltodict.parse(myfile.read())
+        obj = xmltodict.parse(myfile.read(), attr_prefix='@')
     return obj
 #loads the json into json objects
 def to_json(obj):

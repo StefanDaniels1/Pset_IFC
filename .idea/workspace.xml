@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b17d7709-f847-4905-bfca-b8d5857550b6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Source/IFC2x3/json_dataIFC2x3.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Py/IFC2x3_XML_to_JSON.py" beforeDir="false" afterPath="$PROJECT_DIR$/Py/IFC2x3_XML_to_JSON.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/IFC2x3/json_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IFC2x3/json_data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_ActionRequest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_ActionRequest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_ActorCommon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_ActorCommon.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_ActuatorTypeCommon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_ActuatorTypeCommon.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_ActuatorTypeElectricActuator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_ActuatorTypeElectricActuator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_ActuatorTypeHydraulicActuator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_ActuatorTypeHydraulicActuator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_ActuatorTypeLinearActuation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_ActuatorTypeLinearActuation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_ActuatorTypePneumaticActuator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_ActuatorTypePneumaticActuator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_ActuatorTypeRotationalActuation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_ActuatorTypeRotationalActuation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_AirSideSystemInformation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_AirSideSystemInformation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_ConcreteElementSurfaceFinishQuantityGeneral.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_ConcreteElementSurfaceFinishQuantityGeneral.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/IFC2x3/json_dataIFC2x3.json" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IFC2x3/json_dataIFC2x3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_Draughting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_Draughting.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_GasTerminalTypeGasAppliance.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_GasTerminalTypeGasAppliance.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_GasTerminalTypeGasBurner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_GasTerminalTypeGasBurner.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +109,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Py/IFC2x3_XML_to_JSON.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -125,5 +124,10 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="properties[i]" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
