@@ -1,148 +1,112 @@
 import xmltodict
-import json
+import json as JSON
 import os
 
+# This script converts a list of IFC XML files to a single json file with only the desired properties.
 
-#creates blueprint for objects
-class IfcClass:
-    def __init__(self, IfcName, PsetName, PropName):
-        self.IfcName = IfcName
-        self.PsetName = PsetName
-        self.PropName = PropName
+#creates blueprint for IFC objects (from XML files)
+class IfcFile:
+    def __init__(self, ifcClassNames , psetName, propName):
+        # properties from xml file
+        self.ifcClassNames = ifcClassNames
+        self.psetName = psetName
+        self.propName = propName
 
-#Writes objects to json format, here you need to create the right json tree
+    # Writes objects to json format
+    # A IFC file can contain multiple class names, we treat them equally, so for each class name
+    # a json object is returned with the same child properties.
     def toJson(self):
-        return { self.IfcName: [{ "name": self.PsetName, "properties": self.PropName }]}
-#creates objects from json file, here all entities need to be defined to get tot the list
+        jsonObjects = []
+        for classname in self.ifcClassNames:
+            jsonObjects.append({classname: [{"name": self.psetName, "properties": self.propName}]})
+        return jsonObjects
+
+    # Creates object from json
+    # Wanted properties are selected from the json object.
     @classmethod
     def initializeFromJson(cls, jsonObject):
-        classnames = jsonObject["PropertySetDef"]["ApplicableClasses"]["ClassName"]
-        psetnames = jsonObject["PropertySetDef"]["Name"]
+        classNames = jsonObject["PropertySetDef"]["ApplicableClasses"]["ClassName"]
+        pSetNames = jsonObject["PropertySetDef"]["Name"]
         properties = jsonObject["PropertySetDef"]["PropertyDefs"]["PropertyDef"]
+
+        # json properties are a dict, when only a single "PropertyDef" exists, then it is read as dict,
+        # but when multiple exist then it is read as a list of dicts. We always want to work with the same
+        # type. So if only 1 property exists (= dict) then we put that single one in a list.
         if isinstance(properties, dict):
             properties = [properties]
 
-        # removes valuedef from jsonpath, other valuedefs are probaly loaded somewhere else
+        # Removes "ValueDef" and "Definition" from json objects of property, such that when we
+        # set the json object of the property in our class, it no longer contains these values.
+
         # enumurate makes from all elements in an object a set of 2 elements [9,8,7] --> ([0,9], [1,8], [2,7]), underscore deletes the last item from every object
-        for i, _ in enumerate(properties):
-            properties[i].pop("ValueDef")
+        # TODO: Definition and ValueDef are not always removed, see IFCSHAREDBLDGELEMENTS/IfcBeam
+        for p in properties:
+            try:
+                # IFC4 2ADD does not contain ValueDef, so we do not care if it fails.
+                p.pop("ValueDef")
+            except:
+                pass
+        for p in enumerate(properties):
+            p.pop("Definition")
 
-        if "TypeComplexProperty" in properties:
-            properties.pop("TypeComplexProperty")
-        # properties.remove("DataType")
-        print(type(properties))
-        if isinstance(classnames, list):
-            return cls("Multiple_classnames!", psetnames, properties)
+        # Same as for properties, classNames are strings, but when multiple exist then it is read
+        # as a list of strings. So handle a single classname (= string) as a list of strings.
+        if isinstance(classNames, list):
+            # classNames = [ className1, className2, className3 ]
+            return cls(classNames, pSetNames, properties)
         else:
-            return cls(classnames, psetnames, properties)
+            #  classNames = "123"
+            ifcname = classNames
+            return cls([ifcname], pSetNames, properties)
 
-def list_creator(self):
-    name = classmethod(IfcClass.ifc_name)
-    print(name)
-    return
 
-# list_creator()
-#parses the xml files to json
+# Parses the xml file to a json object
 def parser(filepath):
-    with open(filepath, 'r') as myfile:
-        obj = xmltodict.parse(myfile.read(), attr_prefix='@')
-    return obj
-#loads the json into json objects
-def to_json(obj):
-    jsonString = json.dumps(obj)
-    jsonObject = json.loads(jsonString)
-    return jsonObject
+    with open(filepath, 'r') as file:
+        # file to dictionary
+        dict = xmltodict.parse(file.read())
 
-#creates list of ifc objects
-ifcversion = "IFC2x3"
-directory = f"../Source/{ifcversion}/psd"
-result = []
-for filename in os.listdir(directory):
-    filepath = os.path.join(directory, filename)
-    print(filename)
-    Pset_json = to_json(parser(filepath))
-    ifcObject = IfcClass.initializeFromJson(Pset_json)
-    result.append(ifcObject)
-    # print(ifcObject)
-    # print(ifcObject.toJson())
+        # dictionary to json
+        jsonString = JSON.dumps(dict)
+        jsonObject = JSON.loads(jsonString)
+        return jsonObject
 
-#uses json class function and dumps it in correct json format
-outputdirectory = f"../Source/{ifcversion}"
-# result : List<IfcClass>
-jsonString = json.dumps([ifcObject.toJson() for ifcObject in result])
-print(jsonString)
 
-#writes  json to file
-with open(f"{outputdirectory}/json_data{ifcversion}.json", 'w+') as outfile:
+# This must be equal to the folder which contains the ifc xml files.
+ifcVersion = "IFC2x3"
+inputDirectory = f"../Source/{ifcVersion}/psd"
+
+# ifcFiles : List<IfcFile>
+ifcFiles = []
+# For every file in directory retrieve the path and parse this file from xml to json. We pass the json
+# to the class initializer such that is is converted to a Python object.
+for filename in os.listdir(inputDirectory):
+    # Absolute path to xml file
+    filepath = os.path.join(inputDirectory, filename)
+    # Xml to Json
+    json = parser(filepath)
+    # json to Python object
+    ifcFile = IfcFile.initializeFromJson(json)
+
+    # Add each python object to the list
+    ifcFiles.append(ifcFile)
+
+
+# Convert the ifcFiles (List<IfcFile>) back to json objects.
+# Since one ifc file can contain multiple class names, a list of json objects is returned for each
+# ifc file. We want to output a single json list, so we have to merge the results of each file.
+jsonObjects = []
+for ifcFile in ifcFiles:
+    fileJsonObjects = ifcFile.toJson()
+    for fileJsonObject in fileJsonObjects:
+        jsonObjects.append(fileJsonObject)
+
+jsonString = JSON.dumps(jsonObjects)
+
+# Writes json to file
+outputDirectory = f"../Source/{ifcVersion}"
+with open(f"{outputDirectory}/json_data{ifcVersion}.json", 'w+') as outfile:
     outfile.write(jsonString)
-
-
-
-
-# #
-# #
-# def file_command(filepath):
-#     f = open(filepath)
-#
-#
-#
-# a_directory = "../Source/IFC2x3/psd"
-# for filename in os.listdir(a_directory):
-#     with open(a_directory + "/" + filename, 'r') as filename:
-#         obj = xmltodict.parse(filename.read())
-#
-#     file_command(filepath)
-#
-#
-
-
-
-# parser()
-
-# def pd_json(obj):
-#     df = pd.read_json(obj)
-#     df['PropertySetDef'].applly(pd.Series)
-#     print(df)
-
-
-#
-# def json(obj):
-#     Properties = []
-#     classname = str(obj["PropertySetDef"]["ApplicableClasses"]["ClassName"])
-#     Pset_name = str(obj["PropertySetDef"]["Name"])
-#     for each in obj["PropertySetDef"]["PropertyDefs"]["PropertyDef"]:
-#         Properties.append(str(each["Name"]))
-#     # for i in obj["PropertySetDef"]["PropertyDefs"]["PropertyDef"]:
-#     #     Properties.append(str(i["Name"]))
-#     # dict = {classname: {'name': Pset_name, 'properties': {Properties}}
-#     # json_dump = json.dump(dict)
-#
-#     y = {classname:{"name":[Pset_name]}, "properties":[{"name":Propertie, "type":Type}]}
-#     # print(json.dump(y))
-
-    #
-    #
-    #
-    # {
-    #     classname: [
-    #         {
-    #             "name": Pset_name,
-    #             "properties": [
-    #                 {
-    #                     "name": Propertie,
-    #                     "type": Type
-    #                 },
-    #                 {
-    #                     "name": Propertie,
-    #                     "type": Type
-    #                 }
-    #             ]
-    #         }
-    #     ]
-    # }
-
-
-
 
 
 

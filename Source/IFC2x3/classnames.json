@@ -1,0 +1,14 @@
+[[
+  {"ifcWall":  []},
+  {"ifcBrick":  []}
+], [
+  {"ifcCeiling":  []}
+]]
+
+[
+  {"ifcWall":  []},
+  {"ifcBrick":  []},
+  {"ifcCeiling":  []}
+]
+
+

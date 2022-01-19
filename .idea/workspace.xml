@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b17d7709-f847-4905-bfca-b8d5857550b6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Source/IFC2x3/classnames.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/IFC2x3/classnames.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Py/IFC2x3_XML_to_JSON.py" beforeDir="false" afterPath="$PROJECT_DIR$/Py/IFC2x3_XML_to_JSON.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/IFC2x3/json_data.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/IFC2x3/json_dataIFC2x3.json" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IFC2x3/json_dataIFC2x3.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_Draughting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_Draughting.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_GasTerminalTypeGasAppliance.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_GasTerminalTypeGasAppliance.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_GasTerminalTypeGasBurner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_GasTerminalTypeGasBurner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_FlowMovingDeviceFanCentrifugal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_FlowMovingDeviceFanCentrifugal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_FurnitureTypeFileCabinet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_FurnitureTypeFileCabinet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_HeatExchangerTypeCommon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_HeatExchangerTypeCommon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_HeatExchangerTypePlate.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_HeatExchangerTypePlate.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_HumidifierPHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_HumidifierPHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_PrecastConcreteElementGeneral.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_PrecastConcreteElementGeneral.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_StairFlightCommon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_StairFlightCommon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_ThermalLoadAggregate.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IFC2x3/psd/Pset_ThermalLoadAggregate.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,19 +111,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Py/IFC2x3_XML_to_JSON.py</url>
-          <line>30</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
