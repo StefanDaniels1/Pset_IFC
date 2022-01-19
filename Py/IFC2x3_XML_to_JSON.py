@@ -41,13 +41,11 @@ class IfcFile:
         # enumurate makes from all elements in an object a set of 2 elements [9,8,7] --> ([0,9], [1,8], [2,7]), underscore deletes the last item from every object
         # TODO: Definition and ValueDef are not always removed, see IFCSHAREDBLDGELEMENTS/IfcBeam
         for p in properties:
-            try:
-                # IFC4 2ADD does not contain ValueDef, so we do not care if it fails.
-                p.pop("ValueDef")
-            except:
-                pass
-        for p in enumerate(properties):
-            p.pop("Definition")
+            # pop normally extracts and removed the value from the dict, if it doesn't exist an error
+            # occurs. By adding None that is used as a default if it does not exist, so no error.
+            p.pop("ValueDef", None)
+        for p in properties:
+            p.pop("Definition", None)
 
         # Same as for properties, classNames are strings, but when multiple exist then it is read
         # as a list of strings. So handle a single classname (= string) as a list of strings.
@@ -81,6 +79,7 @@ ifcFiles = []
 # For every file in directory retrieve the path and parse this file from xml to json. We pass the json
 # to the class initializer such that is is converted to a Python object.
 for filename in os.listdir(inputDirectory):
+    print(filename)
     # Absolute path to xml file
     filepath = os.path.join(inputDirectory, filename)
     # Xml to Json
