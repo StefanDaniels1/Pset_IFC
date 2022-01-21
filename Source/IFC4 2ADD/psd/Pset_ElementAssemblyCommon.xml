@@ -4,7 +4,9 @@
   <Name>Pset_ElementAssemblyCommon</Name>
   <Definition>Properties common to the definition of all occurrence and type objects of element assembly.</Definition>
   <Applicability />
-  <ApplicableClasses />
+  <ApplicableClasses>
+    <ClassName>Test</ClassName>
+  </ApplicableClasses>
   <PropertyDefs>
     <PropertyDef ifdguid="943159a93c8d4316a7a01b4382c6ea80">
       <Name>Reference</Name>

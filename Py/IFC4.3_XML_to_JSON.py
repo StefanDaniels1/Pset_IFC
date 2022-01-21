@@ -2,9 +2,6 @@ import xmltodict
 import json as JSON
 import os
 import sys
-from itertools import chain
-import collections
-from collections import defaultdict
 
 # This script converts a list of IFC XML files to a single json file with only the desired properties.
 
@@ -24,13 +21,6 @@ class IfcFile:
         for classname in self.ifcClassNames:
             jsonObjects.append({classname: [{"name": self.psetName, "properties": self.propName}]})
         return jsonObjects
-
-    def toDict(self):
-        Main_dict = {}
-        for ifcClass in self.ifcClassNames:
-            Main_dict[ifcClass] = self.propName
-        print(Main_dict)
-
 
     # Creates object from json
     # Wanted properties are selected from the json object.
@@ -88,7 +78,7 @@ def parser(filepath):
 
 
 # This must be equal to the folder which contains the ifc xml files.
-ifcVersion = "IFC2x3"
+ifcVersion = "IFC4.3"
 inputDirectory = f"../Source/{ifcVersion}/psd"
 
 # ifcFiles : List<IfcFile>
@@ -105,6 +95,7 @@ for filename in os.listdir(inputDirectory):
     json = parser(filepath)
     # json to Python object
     ifcFile = IfcFile.initializeFromJson(json)
+
     # Add each python object to the list
     ifcFiles.append(ifcFile)
 
@@ -119,13 +110,14 @@ for ifcFile in ifcFiles:
     for fileJsonObject in fileJsonObjects:
         jsonObjects.append(fileJsonObject)
 
-
 jsonString = JSON.dumps(jsonObjects)
 
 # Writes json to file
 outputDirectory = f"../Source/{ifcVersion}"
 with open(f"{outputDirectory}/json_data{ifcVersion}.json", 'w+') as outfile:
     outfile.write(jsonString)
+
+
 
 
 

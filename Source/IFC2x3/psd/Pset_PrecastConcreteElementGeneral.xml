@@ -11,25 +11,25 @@
     </Definition>
     <Applicability>General pset</Applicability>
     <ApplicableClasses>
-        <ClassName>IFCSHAREDBLDGELEMENTS/IfcBeam</ClassName>
-        <ClassName>IFCSTRUCTURALELEMENTSDOMAIN/IfcBuildingElementPart</ClassName>
-        <ClassName>IFCPRODUCTEXTENSION/IfcBuildingElementProxy</ClassName>
-        <ClassName>IFCSHAREDBLDGELEMENTS/IfcColumn</ClassName>
-        <ClassName>IFCPRODUCTEXTENSION/IfcCovering</ClassName>
-        <ClassName>IFCSHAREDBLDGELEMENTS/IfcCurtainWall</ClassName>
-        <ClassName>IFCSHAREDBLDGELEMENTS/IfcDoor</ClassName>
-        <ClassName>IFCSTRUCTURALELEMENTSDOMAIN/IfcFooting</ClassName>
-        <ClassName>IFCSHAREDBLDGELEMENTS/IfcMember</ClassName>
-        <ClassName>IFCSTRUCTURALELEMENTSDOMAIN/IfcPile</ClassName>
-        <ClassName>IFCSHAREDBLDGELEMENTS/IfcRailing</ClassName>
-        <ClassName>IFCSHAREDBLDGELEMENTS/IfcRamp</ClassName>
-        <ClassName>IFCSHAREDBLDGELEMENTS/IfcRampFlight</ClassName>
-        <ClassName>IFCSHAREDBLDGELEMENTS/IfcRoof</ClassName>
-        <ClassName>IFCSHAREDBLDGELEMENTS/IfcSlab</ClassName>
-        <ClassName>IFCSHAREDBLDGELEMENTS/IfcStair</ClassName>
-        <ClassName>IFCSHAREDBLDGELEMENTS/IfcStairFlight</ClassName>
-        <ClassName>IFCSHAREDBLDGELEMENTS/IfcWall</ClassName>
-        <ClassName>IFCSHAREDBLDGELEMENTS/IfcWallStandardCase
+        <ClassName>IfcBeam</ClassName>
+        <ClassName>IfcBuildingElementPart</ClassName>
+        <ClassName>IfcBuildingElementProxy</ClassName>
+        <ClassName>IfcColumn</ClassName>
+        <ClassName>IfcCovering</ClassName>
+        <ClassName>IfcCurtainWall</ClassName>
+        <ClassName>IfcDoor</ClassName>
+        <ClassName>IfcFooting</ClassName>
+        <ClassName>IfcMember</ClassName>
+        <ClassName>IfcPile</ClassName>
+        <ClassName>IfcRailing</ClassName>
+        <ClassName>IfcRamp</ClassName>
+        <ClassName>IfcRampFlight</ClassName>
+        <ClassName>IfcRoof</ClassName>
+        <ClassName>IfcSlab</ClassName>
+        <ClassName>IfcStair</ClassName>
+        <ClassName>IfcStairFlight</ClassName>
+        <ClassName>IfcWall</ClassName>
+        <ClassName>IfcWallStandardCase
         </ClassName>
     </ApplicableClasses>
     <ApplicableTypeValue></ApplicableTypeValue>
